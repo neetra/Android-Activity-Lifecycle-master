@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/center"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#F3F5F6"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Dialog"
+        android:textColor="#113A4E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="                This is Simple Dialog"
+        android:textColor="#324657" />
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="70sp"
+        android:layout_marginLeft="70sp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:onClick="onClickSwitchActivityA"
+        android:text="Close"
+        android:textColor="#093237"
+        android:textStyle="bold" />
+
+</LinearLayout>
