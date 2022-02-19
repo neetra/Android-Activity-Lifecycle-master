@@ -3,6 +3,7 @@ package com.example.android.testapp;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 public class AnotherActivity extends Activity {
 
@@ -53,6 +54,14 @@ public class AnotherActivity extends Activity {
         super.onRestart();
         Log.e("onRestart ------ ", "AnotherActivity: onRestart()");
 
+    }
+
+    public void onClickClose(View view){
+
+        Log.e("OtherAcitvity---- ", String.format("OtherAcitvity: onClickClose() "));
+        this.finish();
+        //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        // startActivity (intent);
     }
 
 }

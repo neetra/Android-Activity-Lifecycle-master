@@ -103,7 +103,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
         startActivity(intent);
     }
+    public void onClickClose(View view){
 
+        Log.e("ActivityA---- ", String.format("MainActivity: onClickClose() "));
+        this.finish();
+        //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        // startActivity (intent);
+    }
     public void switchDialogActivity(View view){
         Intent intent = new Intent(getApplicationContext(), DialogActivity.class);
         startActivity(intent);
