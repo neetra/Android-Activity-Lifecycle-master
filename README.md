@@ -13,3 +13,7 @@ Simple Android activity lifecycle example with two different activities to see h
 
 Don't forget to check Logs. (don't forget to set the logs for *Errors* to easily see them)
 
+
+# Output ScreenShots
+
+![nn](https://github.com/neetra/Android-Activity-Lifecycle-master/blob/master/output/ass1_AdobeCreativeCloudExpress.gif)
