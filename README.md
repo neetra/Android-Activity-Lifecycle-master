@@ -17,3 +17,5 @@ Don't forget to check Logs. (don't forget to set the logs for *Errors* to easily
 # Output ScreenShots
 
 ![nn](https://github.com/neetra/Android-Activity-Lifecycle-master/blob/master/output/ass1_AdobeCreativeCloudExpress.gif)
+
+Video link is ![here](https://drive.google.com/file/d/1lSHusCphaho8nFSXm6sNI7Tekig03hKs/view?usp=sharing)
